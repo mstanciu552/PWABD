@@ -1,0 +1,6 @@
+Core i3-12100f/Intel/60
+Core i5-13600/Intel/120
+GTX 1050Ti/nVidia/200
+RTX 3060/nVidia/350
+NV4 1TB/Kingston/60
+Fury Beast 16GB/Kingston/40
