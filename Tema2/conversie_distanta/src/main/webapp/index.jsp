@@ -6,6 +6,20 @@
     <title>Conversie distanta</title>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <h1>Conversie distanta</h1>
+    <form action="conversie" method="post">
+        <label for="valoare-conversie">Valoare: </label><input type="text" name="valoare-conversie"><br><br>
+        <select name="initial">
+            <option value="metri">Metri</option>
+            <option value="inch">Inch</option>
+            <option value="feet">Feet</option>
+        </select>   ------>
+        <select name="final">
+            <option value="metri">Metri</option>
+            <option value="inch">Inch</option>
+            <option value="feet">Feet</option>
+        </select><br><br>
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
