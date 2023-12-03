@@ -5,14 +5,14 @@
     <body>
         <h1>Informatii Clienti</h1>
         <form action="generareChitanta" method="post">
-            <input type="text" name="textbox-nume"><br />
-            <input type="text" name="textbox-prenume"><br />
-            <input type="text" name="textbox-oras"><br />
-            <input type="text" name="textbox-adresa"><br />
-            <select name="metoda-plata">
+            <label for="textbox-nume">Nume: </label> <input type="text" name="textbox-nume"><br><br>
+            <label for="textbox-prenume">Prenume: </label> <input type="text" name="textbox-prenume"><br /><br>
+            <label for="textbox-oras">Oras: </label> <input type="text" name="textbox-oras"><br /><br>
+            <label for="textbox-adresa">Adresa: </label> <input type="text" name="textbox-adresa"><br /><br>
+            <label for="metoda-plata">Metoda plata: </label> <select name="metoda-plata">
                 <option value="credit">Credit</option>
                 <option value="cash">Cash</option>
-            </select>
+            </select><br><br>
             <input type="submit" value="Submit">
         </form>
     </body>

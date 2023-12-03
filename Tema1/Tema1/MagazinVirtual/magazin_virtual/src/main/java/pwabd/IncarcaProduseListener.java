@@ -25,12 +25,9 @@ public class IncarcaProduseListener implements ServletContextListener {
             buffer = new BufferedReader(new InputStreamReader(is));
 
             String linie = null;
-            java.util.Scanner s = null;
             int i = 0;
             while ((linie = buffer.readLine()) != null) {
                 String[] linie_separata = linie.split("/");
-                // s = new java.util.Scanner(linie);
-                System.out.println(linie_separata[1]);
                 numeComponenta[i] = linie_separata[0];
                 producator[i] = linie_separata[1];
                 pretComponenta[i++] = Integer.parseInt(linie_separata[2]);
